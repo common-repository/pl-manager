@@ -1,0 +1,18 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.plm-btn-holder{padding:  8px 0;} 
+.plm-btn-holder .plm-count {padding: 0 0 0 3px;}
+.plm-btn-holder .plm-click {padding: 0px 4px; text-decoration: none;box-shadow: none;}
+
+.plm-btn-holder.align-left,.plm-btn-holder.align-right {float: none;}
+.plm-btn-holder.align-left .plm-btn-inr-holder{float: left;}
+.plm-btn-holder.align-left span.status{float: left;}
+.plm-btn-holder.align-right .plm-btn-inr-holder{float: right;}
+.plm-btn-holder.align-right span.status{float: right;}
+
+.plm-btn-holder .status{background: none;padding: 0px;color: #000;}
